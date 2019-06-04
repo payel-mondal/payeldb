@@ -160,48 +160,6 @@
       "email": "string"
     }
   },
-  "payment": [
-    {
-      "paymentId": "string",
-      "value": 0,
-      "paymentDate": "string",
-      "paymentTypeRef": "string",
-      "paymentStatus": "string",
-      "paymentType": "string",
-      "paymentRef": "string",
-      "refund": true
-    }
-  ],
-  "logistics": {
-    "deliveryDetail": {
-      "deliveryReference": "string",
-      "trackingUrl": "string",
-      "provider": "string",
-      "specialInstructions": "string",
-      "shipmentId": "string",
-      "deliveryType": "string",
-      "deliveryCharge": "string",
-      "notificationPreferences": {
-        "notificationType": "string"
-      },
-      "deliveryDate": "string",
-      "deliveryHistory": {
-        "eventDescription": "string",
-        "eventDateTime": "string"
-      },
-      "deliveryStatus": "string"
-    },
-    "collectionDetail": {
-      "collectionDateTime": "string",
-      "collectionStatus": "string",
-      "collectedDateTime": "string",
-      "collectionInstructions": "string",
-      "collectedBy": "string",
-      "collectionStore": "string",
-      "dateDeliveredtoStore": "string",
-      "deliveryType": "string"
-    }
-  },
   "recipient": {
     "address": {
       "houseNameNo": "string",
