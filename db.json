@@ -1,135 +1,135 @@
 {
   "orderHeaderDetails": {
-    "orderId": "string",
-    "accountNumber": "string",
-    "orderDate": "string",
-    "status": "string",
+    "orderId": "12345",
+    "accountNumber": "12345",
+    "orderDate": "09/04/2019",
+    "status": "completed",
     "store": {
-      "storeId": "string",
-      "storeName": "string"
+      "storeId": "08",
+      "storeName": "test"
     },
-    "channel": "string",
-    "source": "string",
-    "receiptNumber": "string",
+    "channel": "store",
+    "source": "web",
+    "receiptNumber": "12345",
     "orderValue": 0,
     "depositValue": 0,
-    "refundType": "string",
+    "refundType": "test",
     "goodwillRefundPercentage": 0,
     "goodwillRefundAmount": 0,
-    "transactionId": "string",
-    "subStatus": "string",
-    "specialRequirements": "string"
+    "transactionId": "1234",
+    "subStatus": "12345",
+    "specialRequirements": "12345"
   },
   "orderLines": [
     {
-      "lineId": "string",
-      "itemNumber": "string",
-      "legacyItemNumber": "string",
-      "description": "string",
+      "lineId": "1234",
+      "itemNumber": "1234",
+      "legacyItemNumber": "1234",
+      "description": "test test",
       "price": 0,
       "quantity": 0,
       "weight": 0,
       "returnedQty": 0,
-      "status": "string",
-      "size": "string",
-      "changeReason": "string",
+      "status": "1234",
+      "size": "12",
+      "changeReason": "12345",
       "promotion": {
-        "type": "string",
-        "message": "string",
+        "type": "prom type",
+        "message": "test",
         "available": true
       },
       "customization": [
         {
-          "description": "string",
+          "description": "test test",
           "quantity": 0
         }
       ],
       "additionalProperties": {
         "allergenInfo": [
           {
-            "name": "string",
-            "value": "string"
+            "name": "allergic name",
+            "value": "vlue"
           }
         ],
-        "cookingInstructions": "string",
-        "shelfLife": "string",
+        "cookingInstructions": "spicy",
+        "shelfLife": "test",
         "nutritionalInfo": [
-          "string"
+          "test"
         ],
         "ingredients": [
-          "string"
+          "test"
         ],
         "storage": [
-          "string"
+          "test"
         ],
         "packQuantity": 0,
-        "dietary": "string"
+        "dietary": "test"
       }
     }
   ],
   "orderHistory": [
     {
-      "dateTime": "string",
+      "dateTime": "09/08/2018",
       "username": {
-        "title": "string",
-        "lastName": "string",
-        "firstName": "string"
+        "title": "test",
+        "lastName": "payel",
+        "firstName": "mondal"
       },
-      "actionTaken": "string",
+      "actionTaken": "test",
       "refundApplicable": true,
       "refund": {
-        "reason": "string",
-        "refundType": "string",
+        "reason": "reason",
+        "refundType": "refundType",
         "refundAmount": 0,
         "goodwillRefundPercentage": 0,
         "goodwillRefundAmount": 0,
-        "returnSource": "string",
-        "returnLocation": "string"
+        "returnSource": "returnSource",
+        "returnLocation": "returnLocation"
       },
       "itemDetails": [
         {
-          "lineId": "string",
-          "itemNumber": "string",
-          "legacyItemNumber": "string",
-          "description": "string",
+          "lineId": "lineId",
+          "itemNumber": "itemNumber",
+          "legacyItemNumber": "legacyItemNumber",
+          "description": "description",
           "price": 0,
           "quantity": 0,
           "weight": 0,
           "returnedQty": 0,
-          "status": "string",
-          "size": "string",
-          "changeReason": "string",
+          "status": "status",
+          "size": "size",
+          "changeReason": "changeReason",
           "promotion": {
-            "type": "string",
-            "message": "string",
+            "type": "type",
+            "message": "message",
             "available": true
           },
           "customization": [
             {
-              "description": "string",
+              "description": "description",
               "quantity": 0
             }
           ],
           "additionalProperties": {
             "allergenInfo": [
               {
-                "name": "string",
-                "value": "string"
+                "name": "name",
+                "value": "value"
               }
             ],
-            "cookingInstructions": "string",
-            "shelfLife": "string",
+            "cookingInstructions": "cookingInstructions",
+            "shelfLife": "shelfLife",
             "nutritionalInfo": [
-              "string"
+              "nutritionalInfo"
             ],
             "ingredients": [
-              "string"
+              "ingredients"
             ],
             "storage": [
-              "string"
+              "storage"
             ],
             "packQuantity": 0,
-            "dietary": "string"
+            "dietary": "dietary"
           }
         }
       ]
