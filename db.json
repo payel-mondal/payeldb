@@ -1,1 +1,230 @@
-{test :"test"}
+{
+  "orderHeaderDetails": {
+    "orderId": "string",
+    "accountNumber": "string",
+    "orderDate": "string",
+    "status": "string",
+    "store": {
+      "storeId": "string",
+      "storeName": "string"
+    },
+    "channel": "string",
+    "source": "string",
+    "receiptNumber": "string",
+    "orderValue": 0,
+    "depositValue": 0,
+    "refundType": "string",
+    "goodwillRefundPercentage": 0,
+    "goodwillRefundAmount": 0,
+    "transactionId": "string",
+    "subStatus": "string",
+    "specialRequirements": "string"
+  },
+  "orderLines": [
+    {
+      "lineId": "string",
+      "itemNumber": "string",
+      "legacyItemNumber": "string",
+      "description": "string",
+      "price": 0,
+      "quantity": 0,
+      "weight": 0,
+      "returnedQty": 0,
+      "status": "string",
+      "size": "string",
+      "changeReason": "string",
+      "promotion": {
+        "type": "string",
+        "message": "string",
+        "available": true
+      },
+      "customization": [
+        {
+          "description": "string",
+          "quantity": 0
+        }
+      ],
+      "additionalProperties": {
+        "allergenInfo": [
+          {
+            "name": "string",
+            "value": "string"
+          }
+        ],
+        "cookingInstructions": "string",
+        "shelfLife": "string",
+        "nutritionalInfo": [
+          "string"
+        ],
+        "ingredients": [
+          "string"
+        ],
+        "storage": [
+          "string"
+        ],
+        "packQuantity": 0,
+        "dietary": "string"
+      }
+    }
+  ],
+  "orderHistory": [
+    {
+      "dateTime": "string",
+      "username": {
+        "title": "string",
+        "lastName": "string",
+        "firstName": "string"
+      },
+      "actionTaken": "string",
+      "refundApplicable": true,
+      "refund": {
+        "reason": "string",
+        "refundType": "string",
+        "refundAmount": 0,
+        "goodwillRefundPercentage": 0,
+        "goodwillRefundAmount": 0,
+        "returnSource": "string",
+        "returnLocation": "string"
+      },
+      "itemDetails": [
+        {
+          "lineId": "string",
+          "itemNumber": "string",
+          "legacyItemNumber": "string",
+          "description": "string",
+          "price": 0,
+          "quantity": 0,
+          "weight": 0,
+          "returnedQty": 0,
+          "status": "string",
+          "size": "string",
+          "changeReason": "string",
+          "promotion": {
+            "type": "string",
+            "message": "string",
+            "available": true
+          },
+          "customization": [
+            {
+              "description": "string",
+              "quantity": 0
+            }
+          ],
+          "additionalProperties": {
+            "allergenInfo": [
+              {
+                "name": "string",
+                "value": "string"
+              }
+            ],
+            "cookingInstructions": "string",
+            "shelfLife": "string",
+            "nutritionalInfo": [
+              "string"
+            ],
+            "ingredients": [
+              "string"
+            ],
+            "storage": [
+              "string"
+            ],
+            "packQuantity": 0,
+            "dietary": "string"
+          }
+        }
+      ]
+    }
+  ],
+  "customer": {
+    "address": {
+      "houseNameNo": "string",
+      "streetName": "string",
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "addressLine3": "string",
+      "city": "string",
+      "postcode": "string",
+      "region": "string",
+      "country": "string"
+    },
+    "addressee": {
+      "title": "string",
+      "lastName": "string",
+      "firstName": "string"
+    },
+    "contactDetails": {
+      "mobilePhone": "string",
+      "homePhone": "string",
+      "workPhone": "string",
+      "faxNo": "string",
+      "email": "string"
+    }
+  },
+  "payment": [
+    {
+      "paymentId": "string",
+      "value": 0,
+      "paymentDate": "string",
+      "paymentTypeRef": "string",
+      "paymentStatus": "string",
+      "paymentType": "string",
+      "paymentRef": "string",
+      "refund": true
+    }
+  ],
+  "logistics": {
+    "deliveryDetail": {
+      "deliveryReference": "string",
+      "trackingUrl": "string",
+      "provider": "string",
+      "specialInstructions": "string",
+      "shipmentId": "string",
+      "deliveryType": "string",
+      "deliveryCharge": "string",
+      "notificationPreferences": {
+        "notificationType": "string"
+      },
+      "deliveryDate": "string",
+      "deliveryHistory": {
+        "eventDescription": "string",
+        "eventDateTime": "string"
+      },
+      "deliveryStatus": "string"
+    },
+    "collectionDetail": {
+      "collectionDateTime": "string",
+      "collectionStatus": "string",
+      "collectedDateTime": "string",
+      "collectionInstructions": "string",
+      "collectedBy": "string",
+      "collectionStore": "string",
+      "dateDeliveredtoStore": "string",
+      "deliveryType": "string"
+    }
+  },
+  "recipient": {
+    "address": {
+      "houseNameNo": "string",
+      "streetName": "string",
+      "addressLine1": "string",
+      "addressLine2": "string",
+      "addressLine3": "string",
+      "city": "string",
+      "postcode": "string",
+      "region": "string",
+      "country": "string"
+    },
+    "addressee": {
+      "title": "string",
+      "lastName": "string",
+      "firstName": "string"
+    },
+    "contactDetails": {
+      "mobilePhone": "string",
+      "homePhone": "string",
+      "workPhone": "string",
+      "faxNo": "string",
+      "email": "string"
+    }
+  }
+}
