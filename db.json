@@ -1,230 +1,122 @@
 {
-  "orderHeaderDetails": {
-    "orderId": "string",
-    "accountNumber": "string",
-    "orderDate": "string",
-    "status": "string",
-    "store": {
-      "storeId": "string",
-      "storeName": "string"
-    },
-    "channel": "string",
-    "source": "string",
-    "receiptNumber": "string",
-    "orderValue": 0,
-    "depositValue": 0,
-    "refundType": "string",
-    "goodwillRefundPercentage": 0,
-    "goodwillRefundAmount": 0,
-    "transactionId": "string",
-    "subStatus": "string",
-    "specialRequirements": "string"
-  },
-  "orderLines": [
+  "itemList": [
     {
-      "lineId": "string",
-      "itemNumber": "string",
-      "legacyItemNumber": "string",
-      "description": "string",
-      "price": 0,
-      "quantity": 0,
-      "weight": 0,
-      "returnedQty": 0,
-      "status": "string",
-      "size": "string",
-      "changeReason": "string",
-      "promotion": {
-        "type": "string",
-        "message": "string",
-        "available": true
-      },
-      "customization": [
+      "itemNumber": "105650296",
+      "legacyItemNumbers": [
+        "2712346"
+      ],
+      "gtins": [
         {
-          "description": "string",
-          "quantity": 0
+          "id": "0048526099535",
+          "type": "EAN13",
+          "additionalProperties": {
+            "isPrimaryBarcode": true
+          }
         }
       ],
-      "additionalProperties": {
-        "allergenInfo": [
-          {
-            "name": "string",
-            "value": "string"
-          }
-        ],
-        "cookingInstructions": "string",
-        "shelfLife": "string",
-        "nutritionalInfo": [
-          "string"
-        ],
-        "ingredients": [
-          "string"
-        ],
-        "storage": [
-          "string"
-        ],
-        "packQuantity": 0,
-        "dietary": "string"
-      }
-    }
-  ],
-  "orderHistory": [
+      "parentItemNumber": "105650288",
+      "customerFriendlyDescription": "Nuby Insulated",
+      "itemDescription": "Nuby Insulated Cool Sipper 18+ Months",
+      "netContent": null,
+      "tillDescription": "NUBY COOL SIPPER",
+      "productMarketing": null,
+      "countryOfOrigin": null,
+      "commercialHierarchy": {
+        "division": 8,
+        "divisionName": "Non Food & Services",
+        "group1": 33,
+        "groupName": "Health & Beauty",
+        "department": 193,
+        "departmentName": "271 Baby Accessories",
+        "className": "Cups Baby Accessories",
+        "subclass": 105,
+        "subclassName": "18 Months Cups",
+        "additionalProperties": {},
+        "class1": 12
+      },
+      "status": "A",
+      "brand": "Nuby",
+      "sellingUnitOfMeasure": "EA",
+      "isCatchWeight": false
+    },
     {
-      "dateTime": "string",
-      "username": {
-        "title": "string",
-        "lastName": "string",
-        "firstName": "string"
-      },
-      "actionTaken": "string",
-      "refundApplicable": true,
-      "refund": {
-        "reason": "string",
-        "refundType": "string",
-        "refundAmount": 0,
-        "goodwillRefundPercentage": 0,
-        "goodwillRefundAmount": 0,
-        "returnSource": "string",
-        "returnLocation": "string"
-      },
-      "itemDetails": [
+      "itemNumber": "105650297",
+      "legacyItemNumbers": [
+        "2712347"
+      ],
+      "gtins": [
         {
-          "lineId": "string",
-          "itemNumber": "string",
-          "legacyItemNumber": "string",
-          "description": "string",
-          "price": 0,
-          "quantity": 0,
-          "weight": 0,
-          "returnedQty": 0,
-          "status": "string",
-          "size": "string",
-          "changeReason": "string",
-          "promotion": {
-            "type": "string",
-            "message": "string",
-            "available": true
-          },
-          "customization": [
-            {
-              "description": "string",
-              "quantity": 0
-            }
-          ],
+          "id": "0048526099536",
+          "type": "EAN13",
           "additionalProperties": {
-            "allergenInfo": [
-              {
-                "name": "string",
-                "value": "string"
-              }
-            ],
-            "cookingInstructions": "string",
-            "shelfLife": "string",
-            "nutritionalInfo": [
-              "string"
-            ],
-            "ingredients": [
-              "string"
-            ],
-            "storage": [
-              "string"
-            ],
-            "packQuantity": 0,
-            "dietary": "string"
+            "isPrimaryBarcode": true
           }
         }
-      ]
-    }
-  ],
-  "customer": {
-    "address": {
-      "houseNameNo": "string",
-      "streetName": "string",
-      "addressLine1": "string",
-      "addressLine2": "string",
-      "addressLine3": "string",
-      "city": "string",
-      "postcode": "string",
-      "region": "string",
-      "country": "string"
+      ],
+      "parentItemNumber": "105650288",
+      "customerFriendlyDescription": "Nuby Insulated1",
+      "itemDescription": "Nuby Insulated Cool Sipper 18+ Months1",
+      "netContent": null,
+      "tillDescription": "NUBY COOL SIPPER",
+      "productMarketing": null,
+      "countryOfOrigin": null,
+      "commercialHierarchy": {
+        "division": 8,
+        "divisionName": "Non Food & Services",
+        "group1": 33,
+        "groupName": "Health & Beauty",
+        "department": 193,
+        "departmentName": "271 Baby Accessories",
+        "className": "Cups Baby Accessories",
+        "subclass": 105,
+        "subclassName": "18 Months Cups",
+        "additionalProperties": {},
+        "class1": 12
+      },
+      "status": "A",
+      "brand": "Nuby",
+      "sellingUnitOfMeasure": "EA",
+      "isCatchWeight": false
     },
-    "addressee": {
-      "title": "string",
-      "lastName": "string",
-      "firstName": "string"
-    },
-    "contactDetails": {
-      "mobilePhone": "string",
-      "homePhone": "string",
-      "workPhone": "string",
-      "faxNo": "string",
-      "email": "string"
-    }
-  },
-  "payment": [
     {
-      "paymentId": "string",
-      "value": 0,
-      "paymentDate": "string",
-      "paymentTypeRef": "string",
-      "paymentStatus": "string",
-      "paymentType": "string",
-      "paymentRef": "string",
-      "refund": true
+      "itemNumber": "105650298",
+      "legacyItemNumbers": [
+        "2712348"
+      ],
+      "gtins": [
+        {
+          "id": "0048526099536",
+          "type": "EAN13",
+          "additionalProperties": {
+            "isPrimaryBarcode": true
+          }
+        }
+      ],
+      "parentItemNumber": "105650288",
+      "customerFriendlyDescription": "Nuby Insulated3",
+      "itemDescription": "Nuby Insulated Cool Sipper 18+ Months1",
+      "netContent": null,
+      "tillDescription": "NUBY COOL SIPPER",
+      "productMarketing": null,
+      "countryOfOrigin": null,
+      "commercialHierarchy": {
+        "division": 8,
+        "divisionName": "Non Food & Services",
+        "group1": 33,
+        "groupName": "Health & Beauty",
+        "department": 193,
+        "departmentName": "271 Baby Accessories",
+        "className": "Cups Baby Accessories",
+        "subclass": 105,
+        "subclassName": "18 Months Cups",
+        "additionalProperties": {},
+        "class1": 12
+      },
+      "status": "C",
+      "brand": "Nuby",
+      "sellingUnitOfMeasure": "EA",
+      "isCatchWeight": false
     }
   ],
-  "logistics": {
-    "deliveryDetail": {
-      "deliveryReference": "string",
-      "trackingUrl": "string",
-      "provider": "string",
-      "specialInstructions": "string",
-      "shipmentId": "string",
-      "deliveryType": "string",
-      "deliveryCharge": "string",
-      "notificationPreferences": {
-        "notificationType": "string"
-      },
-      "deliveryDate": "string",
-      "deliveryHistory": {
-        "eventDescription": "string",
-        "eventDateTime": "string"
-      },
-      "deliveryStatus": "string"
-    },
-    "collectionDetail": {
-      "collectionDateTime": "string",
-      "collectionStatus": "string",
-      "collectedDateTime": "string",
-      "collectionInstructions": "string",
-      "collectedBy": "string",
-      "collectionStore": "string",
-      "dateDeliveredtoStore": "string",
-      "deliveryType": "string"
-    }
-  },
-  "recipient": {
-    "address": {
-      "houseNameNo": "string",
-      "streetName": "string",
-      "addressLine1": "string",
-      "addressLine2": "string",
-      "addressLine3": "string",
-      "city": "string",
-      "postcode": "string",
-      "region": "string",
-      "country": "string"
-    },
-    "addressee": {
-      "title": "string",
-      "lastName": "string",
-      "firstName": "string"
-    },
-    "contactDetails": {
-      "mobilePhone": "string",
-      "homePhone": "string",
-      "workPhone": "string",
-      "faxNo": "string",
-      "email": "string"
-    }
-  }
+  "metadata": {}
 }
